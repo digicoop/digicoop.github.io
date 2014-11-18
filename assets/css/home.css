@@ -1,0 +1,42 @@
+
+body {
+    background: #EAE7D2;
+}
+    
+#logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+#intro {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 17px;
+}
+#intro p {
+    margin: 6px 0;
+}
+#intro p.big {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#intro .social {
+    margin-top: 15px;
+}
+#intro .social a {
+    border: 0;
+    color: #847D76;
+    font-size: 25px;
+    margin-right: 5px;
+}
+#intro .social a:last-child {
+    margin-right: 0;
+}
+#intro .social a:hover {
+    color: #000;
+    background: transparent;
+}

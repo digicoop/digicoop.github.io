@@ -1,0 +1,123 @@
+
+body {
+    font-family: Roboto, Open Sans, serial;
+    font-weight: 300;
+    color: #342D27;
+    margin: 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+a:hover {
+    background: #DAD6BB;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.clearfix:before,
+.clearfix:after {
+content: " ";
+display: table;
+}
+.clearfix:after {
+clear: both;
+}
+
+#header {
+    background: #EAE7D2;
+    padding: 30px 0;
+    text-align: center;
+}
+    #header .logo {
+        border: 0;
+    }
+    #header .logo:hover {
+        background: transparent;
+    }
+        #header .logo img {
+            width: 300px;
+        }
+    #header .nav a {
+        border: 0;
+        padding: 3px 5px;
+        border-radius: 4px;
+        color: #837A73;
+    }
+
+h1 {
+    background: #E2DEC2;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 15px 0;
+    font-weight: 300;
+    color: #81756B;
+}
+
+#products {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+    #products li {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+        #products li > a:first-child {
+            float: left;
+            margin-right: 25px;
+            box-shadow: 1px 1px 11px 0px rgba(50, 50, 50, 0.36);
+            border: 0;
+            line-height: 0;
+        }
+        #products li > h2 {
+            margin-top: 0;
+            font-weight: normal;
+        }
+            #products li > h2 a {
+                border: 0;
+            }
+
+#team {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+}
+    #team li {
+        display: block;
+        float: left;
+        width: 225px;
+        text-align: center;
+    }
+        #team li img {
+            border-radius: 50%;
+            width: 130px;
+            margin-bottom: 10px;
+        }
+        #team li > a {
+            border: 0;
+        }
+        #team li > a:hover {
+            background: transparent;
+        }
+        #team li > h2 {
+            font-weight: normal;
+            margin: 0;
+        }
+        #team li > h3 {
+            font-weight: normal;
+            margin: 0;
+            font-size: 13px;
+            color: #6B6B6B;
+            margin-bottom: 5px;
+        }
+        #team li > p {
+            font-size: 12px;
+        }
