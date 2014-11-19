@@ -1,4 +1,10 @@
 
+.page-header .rss {
+  font-size: 14px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
 .post {
   margin-bottom: 70px;
   text-align: justify;

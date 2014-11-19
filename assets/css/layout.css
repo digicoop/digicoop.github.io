@@ -86,6 +86,7 @@ clear: both;
 }
     .page-header a {
         border: 0;
+        color: #81756B;
     }
     .page-header a:hover {
         text-decoration: none;

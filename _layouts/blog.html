@@ -4,7 +4,10 @@ assets:
   css:
     - /assets/css/blog.css
 ---
-<div class="page-header"><a href="/blog">Blog</a></div>
+<div class="page-header">
+    <a href="/blog">Blog</a>
+    <a href="/blog/feed.xml" class="rss" title="RSS"><i class="fa fa-rss"></i></a>
+</div>
 <div class="container">
   {{ content }}
 </div>
