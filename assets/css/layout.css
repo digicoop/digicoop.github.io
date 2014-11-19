@@ -20,6 +20,13 @@ a:hover {
     margin: 0 auto;
 }
 
+@media screen and (max-width: 900px) {
+    .container {
+        width: auto;
+        padding: 0 20px;
+    }
+}
+
 .clearfix:before,
 .clearfix:after {
 content: " ";
@@ -50,15 +57,40 @@ clear: both;
         color: #837A73;
     }
 
-h1 {
+#footer {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: #aaa;
+    text-align: center;
+    font-size: 12px;
+}
+    #footer a {
+        color: #aaa;
+    }
+
+@media screen and (max-width: 500px) {
+    #footer {
+        margin-top: 40px;
+    }
+}
+
+.page-header {
     background: #E2DEC2;
     text-align: center;
     margin: 0;
     margin-bottom: 50px;
-    padding: 15px 0;
+    padding: 8px 0;
+    font-size: 30px;
     font-weight: 300;
     color: #81756B;
 }
+    .page-header a {
+        border: 0;
+    }
+    .page-header a:hover {
+        text-decoration: none;
+        background: transparent;
+    }
 
 #products {
     list-style: none;
@@ -72,6 +104,7 @@ h1 {
         #products li > a:first-child {
             float: left;
             margin-right: 25px;
+            margin-bottom: 10px;
             box-shadow: 1px 1px 11px 0px rgba(50, 50, 50, 0.36);
             border: 0;
             line-height: 0;
@@ -83,6 +116,12 @@ h1 {
             #products li > h2 a {
                 border: 0;
             }
+
+@media screen and (max-width: 500px) {
+    #products img {
+        width: 100%;
+    }
+}
 
 #team {
     list-style: none;

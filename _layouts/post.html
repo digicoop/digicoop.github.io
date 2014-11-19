@@ -1,0 +1,10 @@
+---
+layout: blog
+---
+<div class="post">
+  <h1>
+      <a href="{{ post.url }}">{{ page.title }}</a>
+      <div class="date hidden-xs">Posted the {{ page.date | date: '%d/%m/%Y' | date_as_string }}</div>
+  </h1>
+  {{ content }}
+</div>
