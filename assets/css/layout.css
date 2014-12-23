@@ -100,7 +100,7 @@ clear: both;
 }
     #products li {
         margin: 0;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
         #products li > a:first-child {
             float: left;
