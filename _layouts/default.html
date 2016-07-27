@@ -4,12 +4,7 @@ layout: base
 <div id="header">
     <div class="container">
         <a href="/" class="logo"><img src="/assets/img/logo.png" alt="Digicoop"></a>
-        <nav class="nav">
-            <a href="/">about</a> &middot;
-            <a href="/products">products</a> &middot;
-            <!-- <a href="/blog">blog</a> &middot; -->
-            <a href="/team">team</a>
-        </nav>
+        {% include nav.html %}
     </div>
 </div>
 {{ content }}

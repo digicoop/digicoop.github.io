@@ -11,17 +11,27 @@ body {
 }
 
 #intro {
-    width: 800px;
+    width: 950px;
     margin: 0 auto;
     text-align: center;
-    font-size: 17px;
+    font-size: 22px;
+    line-height: 30px;
 }
 #intro p {
     margin: 6px 0;
 }
 #intro p.big {
-    font-size: 25px;
+    font-size: 28px;
     margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#intro .nav a {
+    display: inline-block;
+    margin: 20px 5px;
+    border: 0;
+    padding: 7px 12px;
+    border-radius: 4px;
 }
 
 #intro .social {

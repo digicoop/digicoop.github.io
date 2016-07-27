@@ -4,6 +4,8 @@ body {
     font-weight: 300;
     color: #342D27;
     margin: 0;
+    font-size: 18px;
+    line-height: 24px;
 }
 
 a {
@@ -43,6 +45,8 @@ clear: both;
 }
     #header .logo {
         border: 0;
+        display: block;
+        margin-bottom: 15px;
     }
     #header .logo:hover {
         background: transparent;
@@ -52,9 +56,10 @@ clear: both;
         }
     #header .nav a {
         border: 0;
-        padding: 3px 5px;
+        padding: 7px 12px;
         border-radius: 4px;
         color: #837A73;
+        font-size: 23px;
     }
 
 #footer {
@@ -79,8 +84,8 @@ clear: both;
     text-align: center;
     margin: 0;
     margin-bottom: 50px;
-    padding: 8px 0;
-    font-size: 30px;
+    padding: 15px 0;
+    font-size: 33px;
     font-weight: 300;
     color: #81756B;
 }
@@ -93,10 +98,25 @@ clear: both;
         background: transparent;
     }
 
+#content {
+    text-align: center;
+    font-size: 20px;
+    line-height: 27px;
+}
+    #content hr {
+        border: 0;
+        border-top: 1px solid #ccc;
+        margin: 30px 0;
+    }
+    #content h2 {
+        font-weight: normal;
+    }
+
 #products {
     list-style: none;
     padding: 0;
     margin: 0;
+    text-align: left;
 }
     #products li {
         margin: 0;
@@ -104,11 +124,14 @@ clear: both;
     }
         #products li > a:first-child {
             float: left;
-            margin-right: 25px;
+            margin-right: 35px;
             margin-bottom: 10px;
             box-shadow: 1px 1px 11px 0px rgba(50, 50, 50, 0.36);
             border: 0;
             line-height: 0;
+        }
+        #products li > a:first-child > img {
+            max-width: 400px;
         }
         #products li > h2 {
             margin-top: 0;
@@ -117,6 +140,10 @@ clear: both;
             #products li > h2 a {
                 border: 0;
             }
+        #products li > p {
+            font-size: 18px;
+            line-height: 23px;
+        }
 
 @media screen and (max-width: 500px) {
     #products img {
@@ -129,17 +156,23 @@ clear: both;
     margin: 0;
     padding: 0;
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
 }
     #team li {
-        display: block;
-        float: left;
+        display: inline-block;
         width: 225px;
         text-align: center;
+        flex: 0 0 225px;
     }
-        #team li img {
+        #team li .avatar {
             border-radius: 50%;
             width: 130px;
+            height: 130px;
             margin-bottom: 10px;
+            background-size: cover;
+            background-position: center;
+            display: inline-block;
         }
         #team li > a {
             border: 0;
