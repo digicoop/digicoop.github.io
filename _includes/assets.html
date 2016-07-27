@@ -1,0 +1,10 @@
+{% if include.assets.css %}
+  {% for filename in include.assets.css %}
+      <link rel="stylesheet" href="{{ filename }}" type="text/css" />
+  {% endfor %}
+{% endif %}
+{% if include.assets.js %}
+  {% for filename in include.assets.js %}
+      <script type="text/javascript" src="{{ filename }}"></script>
+  {% endfor %}
+{% endif %}

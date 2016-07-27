@@ -10,16 +10,8 @@
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="/assets/css/layout.css">
-  {% if page.assets.css %}
-      {% for filename in page.assets.css %}
-          <link rel="stylesheet" href="{{ filename }}" type="text/css" />
-      {% endfor %}
-  {% endif %}
-  {% if page.assets.js %}
-      {% for filename in page.assets.js %}
-          <script type="text/javascript" src="{{ filename }}"></script>
-      {% endfor %}
-  {% endif %}
+  {% include assets.html assets=layout.assets %}
+  {% include assets.html assets=page.assets %}
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
