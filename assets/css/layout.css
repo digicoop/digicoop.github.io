@@ -101,7 +101,7 @@ clear: both;
 #content {
     text-align: justify;
     font-size: 20px;
-    line-height: 27px;
+    line-height: 28px;
 }
     #content hr {
         border: 0;
@@ -137,6 +137,7 @@ clear: both;
         #products li > h2 {
             margin-top: 0;
             font-weight: normal;
+            text-align: left;
         }
             #products li > h2 a {
                 border: 0;
