@@ -9,5 +9,6 @@ title: Blog
         <div class="date hidden-xs">Posted the {{ post.date | date: '%d/%m/%Y' | date_as_string }} by {{ post.author }}</div>
     </h1>
     {{ post.content }}
+    <div class="shariff" data-services="[&quot;twitter&quot;,&quot;reddit&quot;,&quot;facebook&quot;,&quot;linkedin&quot;,&quot;mail&quot;]" data-lang="fr" data-title="{{page.title | uri_escape}}"></div>
   </div>
 {% endfor %}

@@ -8,6 +8,8 @@
 .post {
   margin-bottom: 70px;
   text-align: justify;
+  font-size: 20px;
+  line-height: 26px;
 }
 
 h1 {
@@ -27,9 +29,13 @@ h1 {
   h1 .date {
     font-size: 15px;
     float: right;
-    line-height: 55px;
+    line-height: 35px;
     color: #777;
   }
+
+.shariff {
+  margin-top: 40px;
+}
 
 @media screen and (max-width: 400px) {
     h1 .date {
