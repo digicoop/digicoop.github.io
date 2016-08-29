@@ -14,7 +14,8 @@ a {
     border-bottom: 1px dotted;
 }
 a:hover {
-    background: #DAD6BB;
+    background: #f85931;
+    color: #fff;
 }
 
 .container {
@@ -39,7 +40,7 @@ clear: both;
 }
 
 #header {
-    background: #EAE7D2;
+    background: #f8f6ee url(../img/bg.png);
     padding: 30px 0;
     text-align: center;
 }
@@ -58,19 +59,22 @@ clear: both;
         border: 0;
         padding: 7px 12px;
         border-radius: 4px;
-        color: #837A73;
+        color: #555;
         font-size: 23px;
+    }
+    #header .nav a:hover {
+        color: #fff;
     }
 
 #footer {
     margin-top: 100px;
-    margin-bottom: 20px;
-    color: #aaa;
+    margin-bottom: 25px;
+    color: #555;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
 }
     #footer a {
-        color: #aaa;
+        color: #333;
     }
 
 @media screen and (max-width: 500px) {
@@ -80,18 +84,18 @@ clear: both;
 }
 
 .page-header {
-    background: #E2DEC2;
+    background: #ec9781;
     text-align: center;
     margin: 0;
     margin-bottom: 50px;
     padding: 15px 0;
     font-size: 33px;
     font-weight: 300;
-    color: #81756B;
+    color: #fff;
 }
     .page-header a {
         border: 0;
-        color: #81756B;
+        color: #fff;
     }
     .page-header a:hover {
         text-decoration: none;
@@ -126,7 +130,7 @@ clear: both;
         #products li > a:first-child {
             float: left;
             margin-right: 35px;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
             box-shadow: 1px 1px 11px 0px rgba(50, 50, 50, 0.36);
             border: 0;
             line-height: 0;
@@ -160,6 +164,7 @@ clear: both;
     margin-top: 40px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
     #team li {
         display: inline-block;
@@ -196,3 +201,10 @@ clear: both;
         #team li > p {
             font-size: 12px;
         }
+
+
+@media screen and (max-width: 630px) {
+    #team {
+        flex-direction: column;
+    }
+}
