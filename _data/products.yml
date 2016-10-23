@@ -1,0 +1,21 @@
+- name: Kantree
+  picture: /assets/img/kantree.png
+  link: kantree.io
+  desc: Kantree est une gestionnaire de projet visuel et flexible qui permet à n'importe
+        quelle équipe de travailler ensemble en temps-réel et de gérer visuellement tout
+        type d'activité. Des idées les plus simples aux projets complexes, il s'adapte à
+        votre façon de travailler et vous aide à vous concentrer sur les choses qui
+        comptent le plus.
+
+- name: Kaiwa
+  picture: /assets/img/kaiwa.png
+  link: getkaiwa.com
+  desc: Kaiwa est un client web open-source de messagerie instantannée en groupe pour le 
+        protocol XMPP. Ce dernier est le protocol standard pour les communications
+        instantannées. Kaiwa propose une interface moderne qui combinée au serveur
+        Prosody délivre une expérience au même niveau que les alternatives commerciales.
+
+- name: Polynote
+  picture: /assets/img/polynote.png
+  link: polynote.io
+  desc: Polynote est un éditeur de note collaboratif et temps-réel.

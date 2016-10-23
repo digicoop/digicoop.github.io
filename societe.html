@@ -1,0 +1,33 @@
+---
+layout: page
+title: La société
+---
+<p>
+    Digicoop développe des outils de travail collaboratif en ligne pour aider les équipes de toute
+    taille à mieux travailler ensemble. L'objetif étant de pouvoir délivrer des résultats plus
+    efficacement en travaillant d'une façon plus collaborative.
+</p>
+<p>
+    Nous sommes une équipe passionée par la technologie, le web et tout ce qu'ils
+    peuvent apporter à la société. Nous utilisons notre expérience pour construire
+    de beaux produits, lesquels, nous l'espérons, auront un impact positif.
+</p>
+<p>
+    Nous avons choisi de créer Digicoop comme une société coopérative et participative (SCOP)
+    parce que nous croyons que les entreprises réussissent mieux quand l'intelligence collective est
+    à son plus fort.
+</p>
+<p>
+    Vous pouvez nous contacter en écrivant à <a href="mailto:contact@digicoop.io">contact@digicoop.io</a>.
+</p>
+<hr>
+<h2>L'équipe</h2>
+<ul id="team" class="clearfix">
+    {% for member in site.data.team %}
+    <li>
+        <div class="avatar" style="background-image: url({{member.avatar}});"></div>
+        <h2>{{member.name}}</h2>
+        <h3><a href="https://twitter.com/{{member.twitter}}">@{{member.twitter}}</a></h3>
+    </li>
+    {% endfor %}
+</ul>

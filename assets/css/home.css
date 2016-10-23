@@ -15,10 +15,10 @@ body {
     margin: 0 auto;
     text-align: center;
     font-size: 22px;
-    line-height: 30px;
+    line-height: 32px;
 }
 #intro p {
-    margin: 6px 0;
+    margin: 20px 0;
 }
 #intro p.big {
     font-size: 28px;
@@ -27,7 +27,7 @@ body {
 }
 
 #intro .nav {
-    margin: 30px 0;
+    margin: 40px 0;
 }
     #intro .nav a {
         display: inline-block;
@@ -39,7 +39,7 @@ body {
     }
 
 #intro .social {
-    margin-top: 15px;
+    margin-top: 30px;
 }
 #intro .social a {
     border: 0;
@@ -53,6 +53,12 @@ body {
 #intro .social a:hover {
     color: #000;
     background: transparent;
+}
+
+#footer {
+    margin-top: 20px;
+    line-height: 25px;
+    color: #aba38b;
 }
 
 @media screen and (max-width: 800px) {

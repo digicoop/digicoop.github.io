@@ -1,0 +1,21 @@
+---
+layout: page
+title: Jobs
+---
+<p>
+  Chez Digicoop, on aime se décrire comme une startup coopérative. Nous avons l'état d'esprit et les objectifs d'une startup tout en étant une coopérative (SCOP). Cela signifie que la société est détenue par ses employés. Digicoop est un projet humain avant tout.
+</p>
+<p>
+  Nous recherchons des personnes autonomes et responsables dans leur travail. Notre structure de management légère s'assure que l'on reste sur la bonne voie et que les objectifs soient atteind mais ceux-ci sont définis en groupe. On attend des coopérateurs qu'ils atteignent leurs objectifs sans supervision. Nous apprécions et encourageons les initiatives personnelles.
+</p>
+<p>
+  Après avoir travaillé quelque temps aves nous, les coopérateurs auront l'opportunité de devenir associé, ce qui veut dire détenir un morceau de la société et avoir le droit de voté lors des assemblées générales (1 associé = 1 vote).
+</p>
+<ul id="jobs">
+  {% for job in site.jobs %}
+  <li>
+    <h2><a href="{{job.url}}">{{job.title}}</a></h2>
+    <p>{{job.excerpt}}</p>
+  </li>
+  {% endfor %}
+</ul>

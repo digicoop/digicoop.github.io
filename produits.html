@@ -1,0 +1,14 @@
+---
+layout: page
+title: Produits
+---
+<ul id="products">
+  {% for product in site.data.products %}
+  <li class="clearfix">
+    <a href="http://{{product.link}}"><img src="{{product.picture}}" alt=""></a>
+    <h2><a href="http://{{product.link}}">{{product.name}}</a></h2>
+    <p>{{product.desc}}</p>
+    <p><a href="http://{{product.link}}">{{product.link}}</a></p>
+  </li>
+  {% endfor %}
+</ul>

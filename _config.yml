@@ -1,2 +1,11 @@
 title: Digicoop
 url: http://digicoop.io
+collections:
+  jobs:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: jobs
+    values:
+      layout: job

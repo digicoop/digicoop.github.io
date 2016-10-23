@@ -6,9 +6,8 @@ title: Blog
   <div class="post">
     <h1>
         <a href="{{ post.url }}">{{ post.title }}</a>
-        <div class="date hidden-xs">Posted the {{ post.date | date: '%d/%m/%Y' | date_as_string }} by {{ post.author }}</div>
+        <div class="date hidden-xs">Posté par {{ post.author }} le {{ post.date | date: '%d/%m/%Y' | date_as_string }}</div>
     </h1>
     {{ post.content }}
-    <div class="shariff" data-services="[&quot;twitter&quot;,&quot;reddit&quot;,&quot;facebook&quot;,&quot;linkedin&quot;,&quot;mail&quot;]" data-lang="fr" data-title="{{page.title | uri_escape}}"></div>
   </div>
 {% endfor %}
