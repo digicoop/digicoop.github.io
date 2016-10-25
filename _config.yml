@@ -1,5 +1,6 @@
 title: Digicoop
 url: http://digicoop.io
+blog_media_url: http://digicoop.io/blog/media
 collections:
   jobs:
     output: true
