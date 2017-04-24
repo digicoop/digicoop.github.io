@@ -1,21 +1,42 @@
 ---
 layout: page
 title: Jobs
+assets:
+  css:
+    - /assets/css/jobs.css
 ---
+
+<h2>Chez Digicoop,</h2>
+
 <p>
-  Chez Digicoop, on aime se décrire comme une startup coopérative. Nous avons l'état d'esprit et les objectifs d'une startup tout en étant une coopérative (SCOP). Cela signifie que la société est détenue par ses employés. Digicoop est un projet humain avant tout.
+Nous avons un objectif clair et ambitieux, améliorer le quotidien des équipes dans les entreprises à travers le monde en leur donnant les meilleurs outils nécessaires à la collaboration et à la coordination de leur travail.
 </p>
 <p>
-  Nous recherchons des personnes autonomes et responsables dans leur travail. Notre structure de management légère s'assure que l'on reste sur la bonne voie et que les objectifs soient atteind mais ceux-ci sont définis en groupe. On attend des coopérateurs qu'ils atteignent leurs objectifs sans supervision. Nous apprécions et encourageons les initiatives personnelles.
+Kantree, notre premier produit a été créé dans le but d’offrir un espace de travail en ligne, où les équipes peuvent coordonner simplement leurs activités et suivre l’avancement de leur travail, et ainsi réduire drastiquement l’usage des emails, d’excel et les risques de perdre des documents.
 </p>
 <p>
-  Après avoir travaillé quelque temps aves nous, les coopérateurs auront l'opportunité de devenir associé, ce qui veut dire détenir un morceau de la société et avoir le droit de voté lors des assemblées générales (1 associé = 1 vote).
+Parce que nous pensons qu’il faut redonner plus de liberté dans la manière de s’organiser, Kantree est entièrement paramétrable pour convenir à tous.
 </p>
+<p>
+Digicoop a été créé par 3 ingénieurs passionnés par l’ergonomie et la simplicité d’utilisation. Nous avons à coeur de donner la meilleur expérience possible à nos utilisateurs et c’est pour ça que nos produits sont très appréciés par nos clients.
+</p>
+<p>
+Digicoop a une particularité unique, nous sommes <strong>une startup coopérative du numérique</strong>. Nous avons fait le pari de l’horizontalité dans la gouvernance de l’entreprise car nous pensons que c’est une pratique positive qui conduit à plus de transparence dans la prise de décision et dans la vie de l’entreprise.
+</p>
+<p>
+Concrètement, comme dans toute les <a href="http://www.les-scop.coop/sites/fr/les-scop/qu-est-ce-qu-une-scop.html">SCOP</a>, cela veut dire que chaque salarié est amené à devenir associé, et que la pérennité de l’entreprise est un objectif fondamental.
+</p>
+<p>
+Si vous cherchez à vous engager dans une aventure humaine où vous serez véritablement acteur de la réussite de l’entreprise dans une coopérative du numérique en forte croissance, sur un produit à forte valeur ajoutée qui modernise nos façons de travailler, alors contactez-nous !
+</p>
+
+<h2>Sur quoi souhaitez-vous travailler ?</h2>
+
 <ul id="jobs">
   {% for job in site.jobs %}
   <li>
-    <h2><a href="{{job.url}}">{{job.title}}</a></h2>
-    <p>{{job.excerpt}}</p>
+    <a href="{{job.url}}">{{job.title}}</a>
+    <div>{{job.excerpt}}</div>
   </li>
   {% endfor %}
 </ul>

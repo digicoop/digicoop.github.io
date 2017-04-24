@@ -1,0 +1,56 @@
+#content {
+  color: #555;
+  text-align: left;
+}
+
+#content h2 {
+  text-align: left;
+  font-size: 22px;
+  color: #333;
+  font-weight: bold;
+  margin: 45px 0 20px;
+}
+
+strong {
+  color: #333;
+}
+
+p {
+  margin: 28px 0;
+}
+
+ul {
+  padding-left: 22px;
+  list-style: none;
+  position: relative;
+}
+
+ul li {
+  position: relative;
+}
+
+ul li:before {
+  content: "";
+  width: 10px;
+  height: 5px;
+  background-color: #ec9781;
+  position: absolute;
+  top: 10px;
+  left: -22px;
+}
+
+#jobs {
+  text-align: left;
+  list-style: none;
+  margin: 10px 0;
+  padding-left: 22px;
+}
+
+#jobs li {
+  border-bottom: 1px dotted #ddd;
+  padding: 0 0 10px;
+  margin-bottom: 10px;
+}
+#jobs li:last-child {
+  border: 0;
+}

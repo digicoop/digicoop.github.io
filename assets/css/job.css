@@ -1,0 +1,74 @@
+#content {
+  text-align: left;
+  font-size: 20px;
+  line-height: 28px;
+  color: #555;
+}
+
+
+#content h2 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 22px;
+  color: #333;
+  margin-top: 45px;
+}
+
+#content p {
+  margin: 28px 0;
+}
+
+strong {
+  font-size: 19px;
+  color: #333;
+}
+
+ul {
+  padding-left: 22px;
+  list-style: none;
+  position: relative;
+}
+
+ul li {
+  position: relative;
+}
+
+ul li:before {
+  content: "";
+  width: 10px;
+  height: 5px;
+  background-color: #ec9781;
+  position: absolute;
+  top: 10px;
+  left: -22px;
+}
+
+ul li ul li:before {
+  background-color: #777;
+  width: 8px;
+  height: 3px;
+  top: 11px;
+  left: -16px;
+}
+
+#content > ul {
+  margin: 28px 0;
+}
+
+#content > ul > li {
+  margin-bottom: 4px;
+}
+
+.btn-job {
+  text-align: center;
+  margin: 35px 0;
+}
+
+.btn-candidate {
+  display: inline-block;
+  padding: 10px 17px;
+  color: #fff;
+  background-color: #e47356;
+  border-radius: 3px;
+  border: 0;
+}
