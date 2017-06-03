@@ -1,9 +1,23 @@
 - name: Jérémy
   avatar: /assets/img/jeremy.jpg
+  role: Developer
   twitter: djeremh
+  linkedin: jmoresmau
 - name: Maxime
   avatar: /assets/img/maximebf.jpg
+  role: Developer
   twitter: maximebf
+  linkedin: maximebouroumeaufuseau
 - name: Sébastien
   avatar: /assets/img/seb.png
+  role: Developer
   twitter: sebu77
+- name: Bruno
+  avatar: /assets/img/bruno.jpg
+  role: Sales
+  linkedin: brunoalcaras
+- name: Emmanuelle
+  avatar: /assets/img/emmanuelle.jpg
+  role: Marketing
+  twitter: Emma_Maem 
+  linkedin: emmanuellegiraud

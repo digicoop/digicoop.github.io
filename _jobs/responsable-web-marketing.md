@@ -1,32 +1,13 @@
 ---
 title: Responsable Web Marketing et communication (H/F)
 excerpt: Développer la visibilité et la notoriété de Kantree, en France et dans le monde
+closed: true
+posted: 01/05/2017
+contract_type: CDI
+salary: Salaire à définir en fonction de votre profil (fixe + variables)
+region: Paris
+experience: Minimum 3 à 5 ans, hors stage
 ---
-
-## Informations générales
-
-- **Type de Contrat :** CDI
-- **Salaire annuel (min/max en €) :** Salaire à définir en fonction de votre profil (fixe + variables)
-- **Région :** Paris
-- **Expérience souhaitée** : Minimum 3 à 5 ans, hors stage
-- **Durée hebdomadaire :** Temps plein
-- **Début du contrat :** dès que vous êtes prêt!
-- **Télétravail :** possible et encouragé
-
-<h2>A propos de nous</h2>
-
-Digicoop est une petite équipe jeune et dynamique de 4 personnes, 3 ingénieurs en informatiques et un commercial, et nous avons créé Kantree un outil de gestion de projet en ligne collaboratif, visuel et flexible (kantree.io).
-
-Nous avons un objectif clair et ambitieux: améliorer le quotidien des équipes dans les entreprises à travers le monde en leur donnant les meilleurs outils nécessaires à la collaboration et à la coordination de leur travail.
-
-Kantree est actuellement utilisé par des dizaines d’équipes dans le monde et notamment dans des grands groupes français.
-
-Digicoop a la particularité unique d’être une **startup du numérique sous statuts coopératif (SCOP)**. Nous avons voulu inscrire dans les statuts juridiques de notre entreprise les valeurs de coopération, de transparence, de partage, de justice que nous défendons.
-
-
-Pour plus d’infos sur digicoop et kantree, [http://digicoop.io/jobs](http://digicoop.io/jobs)
-
-
 ## Votre rôle
 
 Vous êtes en charge du développement opérationnel de la stratégie de communication et de marketing de notre produit Kantree.
@@ -69,7 +50,3 @@ Vous travaillerez de manière autonome sur tous ces sujets, et vous échangerez 
 - Vous connaissez bien les méthodes agiles de management et les transformations qu’elles opèrent dans le monde du travail
 - Vous aimez l’idée de rejoindre une coopérative et de devenir un membre actif de l’entreprise.
 - Vous avez vu l’intégralité des films Star wars, d’ailleurs votre préféré c’est l’Empire contre-attaque, mais vous préférez quand même Blade Runner
-
-## Postuler
-
-Expliquez-nous pourquoi vous êtes la personne idéale pour ce poste en envoyant un email à [jobs@digicoop.io](mailto:jobs@digicoop.io).

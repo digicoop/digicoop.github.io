@@ -27,7 +27,15 @@ title: La société
     <li>
         <div class="avatar" style="background-image: url({{member.avatar}});"></div>
         <h2>{{member.name}}</h2>
-        <h3><a href="https://twitter.com/{{member.twitter}}">@{{member.twitter}}</a></h3>
+        <h3>
+            {{member.role}}
+            {% if member.twitter %}
+            <a href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a>
+            {% endif %}
+            {% if member.linkedin %}
+            <a href="https://linkedin.com/in/{{member.linkedin}}"><i class="fa fa-linkedin"></i></a>
+            {% endif %}
+        </h3>
     </li>
     {% endfor %}
 </ul>

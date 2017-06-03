@@ -4,8 +4,51 @@ assets:
   css:
     - /assets/css/job.css
 ---
+{% if page.closed %}
+    <p id="closed">Cette position n'est plus disponible</p>
+{% endif %}
+
+<h2>Informations générales</h2>
+
+<ul>
+    <li><strong>Type de Contrat</strong> : {{page.contract_type}}
+    <li><strong>Salaire annuel (min/max en €)</strong> : {{page.salary}}
+    <li><strong>Région</strong> : {{page.region}}
+    <li><strong>Expérience souhaitée</strong> : {{page.experience}}
+    <li><strong>Durée hebdomadaire</strong> : Temps plein
+    <li><strong>Début du contrat</strong> : dès que vous êtes prêt!
+    <li><strong>Télétravail</strong> : possible et encouragé
+    <li><strong>Offre posté le</strong> : {{page.posted}}
+</ul>
+
+<h2>A propos de nous</h2>
+
+<p>
+Digicoop est une petite équipe jeune et dynamique de 4 personnes, 3 ingénieurs en informatiques et un commercial, et nous avons créé Kantree un outil de gestion de projet en ligne collaboratif, visuel et flexible (kantree.io).
+</p>
+<p>
+Nous avons un objectif clair et ambitieux: améliorer le quotidien des équipes dans les entreprises à travers le monde en leur donnant les meilleurs outils nécessaires à la collaboration et à la coordination de leur travail.
+</p>
+<p>
+Kantree est actuellement utilisé par des dizaines d’équipes dans le monde et notamment dans des grands groupes français.
+</p>
+<p>
+Digicoop a la particularité unique d’être une **startup du numérique sous statuts coopératif (SCOP)**. Nous avons voulu inscrire dans les statuts juridiques de notre entreprise les valeurs de coopération, de transparence, de partage, de justice que nous défendons.
+</p>
+<p>
+Pour plus d’infos sur digicoop et kantree, <a href="http://digicoop.io/jobs">http://digicoop.io/jobs</a>
+</p>
+
 {{ content }}
 
-<p class="btn-job">
-<a class="btn-candidate" href="mailto:jobs@digicoop.io">Postuler</a>
+{% unless page.closed %}
+<h2>Postuler</h2>
+
+<p>
+Expliquez-nous pourquoi vous êtes la personne idéale pour ce poste en envoyant un email à <a href="mailto:jobs@digicoop.io">jobs@digicoop.io</a>.
 </p>
+
+<p class="btn-job">
+    <a class="btn-candidate" href="mailto:jobs@digicoop.io">Postuler</a>
+</p>
+{% endunless %}

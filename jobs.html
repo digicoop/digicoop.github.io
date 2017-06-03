@@ -30,13 +30,22 @@ Concrètement, comme dans toute les <a href="http://www.les-scop.coop/sites/fr/l
 Si vous cherchez à vous engager dans une aventure humaine où vous serez véritablement acteur de la réussite de l’entreprise dans une coopérative du numérique en forte croissance, sur un produit à forte valeur ajoutée qui modernise nos façons de travailler, alors contactez-nous !
 </p>
 
+{% assign opened_jobs = site.jobs|where:"closed",false %}
+{% if opened_jobs.size > 0 %}
+
 <h2>Sur quoi souhaitez-vous travailler ?</h2>
 
 <ul id="jobs">
-  {% for job in site.jobs %}
-  <li>
-    <a href="{{job.url}}">{{job.title}}</a>
-    <div>{{job.excerpt}}</div>
-  </li>
+  {% for job in opened_jobs %}
+    <li>
+      <a href="{{job.url}}">{{job.title}}</a>
+      <div>{{job.excerpt}}</div>
+    </li>
   {% endfor %}
 </ul>
+
+{% else %}
+
+<h2>Aucun poste ouvert pour le moment</h2>
+
+{% endif %}

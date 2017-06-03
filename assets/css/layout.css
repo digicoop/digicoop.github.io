@@ -167,12 +167,14 @@ clear: both;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
     #team li {
         display: inline-block;
-        width: 225px;
+        width: 300px;
         text-align: center;
-        flex: 0 0 225px;
+        flex: 0 0 300px;
+        margin-bottom: 50px;
     }
         #team li .avatar {
             border-radius: 50%;
@@ -200,6 +202,16 @@ clear: both;
             color: #6B6B6B;
             margin-bottom: 5px;
         }
+            #team li > h3 > a {
+                margin-left: 4px;
+                text-decoration: none;
+                color: #6B6B6B;
+                border: 0;
+            }
+            #team li > h3 > a:hover {
+                background: transparent;
+                color: #000;
+            }
         #team li > p {
             font-size: 12px;
         }

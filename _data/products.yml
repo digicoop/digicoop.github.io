@@ -7,13 +7,13 @@
         votre façon de travailler et vous aide à vous concentrer sur les choses qui
         comptent le plus.
 
-- name: Kaiwa
-  picture: /assets/img/kaiwa.png
-  link: getkaiwa.com
-  desc: Kaiwa est un client web open-source de messagerie instantannée en groupe pour le 
-        protocol XMPP. Ce dernier est le protocol standard pour les communications
-        instantannées. Kaiwa propose une interface moderne qui combinée au serveur
-        Prosody délivre une expérience au même niveau que les alternatives commerciales.
+# - name: Kaiwa
+#   picture: /assets/img/kaiwa.png
+#   link: getkaiwa.com
+#   desc: Kaiwa est un client web open-source de messagerie instantannée en groupe pour le 
+#         protocol XMPP. Ce dernier est le protocol standard pour les communications
+#         instantannées. Kaiwa propose une interface moderne qui combinée au serveur
+#         Prosody délivre une expérience au même niveau que les alternatives commerciales.
 
 - name: Polynote
   picture: /assets/img/polynote.png

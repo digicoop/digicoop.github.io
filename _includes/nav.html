@@ -1,7 +1,8 @@
+{% assign opened_jobs = site.jobs|where:"closed",false %}
 <nav class="nav">
     <a href="/produits">Produits</a> &middot;
     <a href="/societe">La société</a> &middot;
     <a href="/blog">Blog</a> &middot;
-    <a href="/jobs">On recrute !</a> &middot;
+    {% if opened_jobs.size > 0 %}<a href="/jobs">On recrute !</a> &middot;{% endif %}
     <a href="/en"><em>English</em></a>
 </nav>
