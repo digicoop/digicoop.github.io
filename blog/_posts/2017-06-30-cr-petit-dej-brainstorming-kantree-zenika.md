@@ -5,6 +5,8 @@ author: Emmanuelle
 ---
 Ce mardi 27 juin nous avons co-organisé, avec notre partenaire Zenika, un atelier pratique sur le brainstorming. Nous avons voulu démontrer en pratique comment Kantree pouvait répondre intuitivement aux problématiques quotidiennes dans la gestion de projets. 
 Richard Coffre, Head of Agile et coach chez Zenika, a animé la session de cette matinée, et Maxime Bouroumeau-Fuseau, co-fondateur de Kantree, a modélisé les échanges en live sur la plateforme. 
+
+![](/blog/media/2017-06-30-cr-petit-dej-brainstorming-kantree-zenika/photo1.jpg)
  
 ## Les limites des outils de gestion de projets 
  
@@ -71,6 +73,8 @@ Ce matin, nous avons pu voir à quel point un processus agile est nécessaire qu
 Les adeptes des méthodologies agiles sont assez à l’aise avec cette gymnastique intellectuelle. Cependant, la plupart des logiciels de gestion de projets sont construits sur un parti-pris de méthodologie, ce qui rend très complexe, voire impossible, certaines personnalisations.
  
 Avec Kantree, vous créez la plateforme de gestion de projets et la faites évoluer selon vos besoins à l’instant T. Et la personnalisation est faite par l’utilisateur final, sans formation, et avec une grande force d’adaptabilité.
+
+![](/blog/media/2017-06-30-cr-petit-dej-brainstorming-kantree-zenika/photo2.jpg)
  
 **Merci à Richard et à Zenika !**
  
