@@ -167,13 +167,11 @@ clear: both;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
     #team li {
         display: inline-block;
-        width: 300px;
         text-align: center;
-        flex: 0 0 300px;
+        flex: 0 0 230px;
         margin-bottom: 50px;
     }
         #team li .avatar {
