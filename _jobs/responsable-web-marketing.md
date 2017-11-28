@@ -1,8 +1,8 @@
 ---
 title: Responsable Web Marketing et communication (H/F)
 excerpt: Développer la visibilité et la notoriété de Kantree, en France et dans le monde
-closed: true
-posted: 01/05/2017
+closed: false
+posted: 28/11/2017
 contract_type: CDI
 salary: Salaire à définir en fonction de votre profil (fixe + variables)
 region: Paris

@@ -1,18 +1,18 @@
 - name: Jérémy
   avatar: /assets/img/jeremy.jpg
-  role: Developer
+  role: Développeur
   twitter: djeremh
   linkedin: jmoresmau
 - name: Maxime
   avatar: /assets/img/maximebf.jpg
-  role: Developer
+  role: Développeur
   twitter: maximebf
   linkedin: maximebouroumeaufuseau
 - name: Sébastien
   avatar: /assets/img/seb.png
-  role: Developer
+  role: Développeur
   twitter: sebu77
 - name: Bruno
   avatar: /assets/img/bruno.jpg
-  role: Sales
+  role: Commercial
   linkedin: brunoalcaras
