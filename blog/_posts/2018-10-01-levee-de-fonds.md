@@ -13,4 +13,4 @@ Début 2018, nous avons emménagé dans de beaux locaux tout neuf au 5 rue Richa
 
 2018 a aussi été l'occasion de relancer le mouvement des SCOP du numérique. Cette initiative nous tient à coeur et elle se concrétise vraiment depuis cet été sous le nom de **ScopTech**. Nous aurons l'occasion d'en reparler dans un prochain billet de blog (*juré!*).
 
-Côté Kantree, nous constatons une très bonne croissance depuis le début d'année. Nous serons présents prochainement à SaaStock à Dublin et au Web Summit à Lisbonne. Pour suivre les avancées du produit, c'est sur le blog de kantree par ici: https://kantree.io/blog.
+Côté Kantree, nous constatons une très bonne croissance depuis le début d'année. Nous serons présents prochainement à SaaStock à Dublin et au Web Summit à Lisbonne. Pour suivre les avancées du produit, c'est sur le blog de kantree par ici: <https://kantree.io/blog>.
