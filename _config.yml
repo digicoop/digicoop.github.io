@@ -4,9 +4,16 @@ blog_media_url: http://digicoop.io/blog/media
 collections:
   jobs:
     output: true
+  jobs_en:
+    output: true
 defaults:
   - scope:
       path: ""
       type: jobs
     values:
       layout: job
+  - scope:
+      path: ""
+      type: jobs_en
+    values:
+      layout: job_en

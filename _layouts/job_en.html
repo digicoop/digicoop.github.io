@@ -1,0 +1,65 @@
+---
+layout: page
+assets:
+  css:
+    - /assets/css/job.css
+---
+{% if page.closed %}
+    <p id="closed">This position is closed</p>
+{% endif %}
+
+<h2>General information</h2>
+
+<ul>
+    <li><strong>Contract type</strong> : {{page.contract_type}}
+    <li><strong>Annual salary (min/max in €)</strong> : {{page.salary}}
+    <li><strong>Location</strong> : {{page.region}}
+    {% if page.experience %}<li><strong>Required experience</strong> : {{page.experience}}{% endif %}
+    <li><strong>Schedule</strong> : Full Time
+    <li><strong>Start date</strong> : as soon as you are ready!
+    <li><strong>Remote work</strong> : possible
+    <li><strong>Posted since</strong> : {{page.posted}}
+</ul>
+
+<h2>About us</h2>
+
+<p>
+Digicoop is a small team of 4 people: 3 engineers and 1 sales rep. We have created <a href="https://kantree.io">Kantree</a>, a collaboration and work management platform.
+</p>
+<p>
+We have a clear and ambitious goal: improve the daily life of teams in companies across the world by offering them the best tools for collaboration and work management.
+</p>
+<p>
+Kantree is currently used by hundreds of teams around the world and most notably by some large French companies.
+</p>
+<p>
+Digicoop is a bit unique as we are a cooperative startup (legally speaking - also known as a worker cooperative). We chose to organize the company horizontally as we think it encourages transparency when making decisions and during the daily life of the company.
+</p>
+<p>
+In concrete terms, as in every <a href="http://www.les-scop.coop/sites/fr/les-scop/qu-est-ce-qu-une-scop.html">SCOP</a>, each employee is encouraged to become co-owner of the company. The long-term success of the company is our fundamental goal.
+</p>
+<p>
+    Our offices are located at 5 rue Richard Lenoir in the 11th arrondissement of Paris.
+</p>
+
+{{ content }}
+
+{% unless page.closed %}
+<h2>Interview process</h2>
+
+<p>
+    If your profile is interesting we will contact you by phone for a first (quick) interview.<br>
+    Following this, we will schedule an in-person interview in our offices (Paris 11ème).<br>
+    A second in-person interview may be scheduled depending on the position.
+</p>
+
+<h2>Submit your application</h2>
+
+<p>
+Tell us why you are the perfect candidate for this position by sending us an email at <a href="mailto:jobs@digicoop.io">jobs@digicoop.io</a>.
+</p>
+
+<p class="btn-job">
+    <a class="btn-candidate" href="mailto:jobs@digicoop.io">Submit application</a>
+</p>
+{% endunless %}

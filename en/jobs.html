@@ -1,0 +1,39 @@
+---
+layout: page
+title: Jobs
+assets:
+  css:
+    - /assets/css/jobs.css
+---
+<p>
+We have a clear and ambitious goal: improve the daily life of teams in companies across the world by offering them the best tools for collaboration and work management.
+</p>
+<p>
+Digicoop is a bit unique as we are a cooperative startup (legally speaking - also known as a worker cooperative). We chose to organize the company horizontally as we think it encourages transparency when making decisions and during the daily life of the company.
+</p>
+<p>
+In concrete terms, as in every <a href="http://www.les-scop.coop/sites/fr/les-scop/qu-est-ce-qu-une-scop.html">SCOP</a>, each employee is encouraged to become co-owner of the company. The long-term success of the company is our fundamental goal.
+</p>
+<p>
+If you are looking to join a human adventure where you will truly be an actor of the success of the company, as part of a fast growing startup, contact us!
+</p>
+
+{% assign opened_jobs = site.jobs_en|where:"closed",false %}
+{% if opened_jobs.size > 0 %}
+
+<h2>Current openings:</h2>
+
+<ul id="jobs">
+  {% for job in opened_jobs %}
+    <li>
+      <a href="{{job.url}}">{{job.title}}</a>
+      <div>{{job.excerpt}}</div>
+    </li>
+  {% endfor %}
+</ul>
+
+{% else %}
+
+<h2>No openings at the moment</h2>
+
+{% endif %}
