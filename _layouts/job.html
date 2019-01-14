@@ -14,7 +14,7 @@ assets:
     <li><strong>Type de Contrat</strong> : {{page.contract_type}}
     <li><strong>Salaire annuel (min/max en €)</strong> : {{page.salary}}
     <li><strong>Région</strong> : {{page.region}}
-    <li><strong>Expérience souhaitée</strong> : {{page.experience}}
+    {% if page.experience %}<li><strong>Expérience souhaitée</strong> : {{page.experience}}{% endif %}
     <li><strong>Durée hebdomadaire</strong> : Temps plein
     <li><strong>Début du contrat</strong> : dès que vous êtes prêt!
     <li><strong>Télétravail</strong> : possible et encouragé
@@ -24,24 +24,35 @@ assets:
 <h2>A propos de nous</h2>
 
 <p>
-Digicoop est une petite équipe jeune et dynamique de 4 personnes, 3 ingénieurs en informatiques et un commercial, et nous avons créé Kantree un outil de gestion de projet en ligne collaboratif, visuel et flexible (kantree.io).
+Digicoop est une petite équipe jeune et dynamique de 4 personnes, 3 ingénieurs en informatiques et un commercial, et nous avons créé <a href="https://kantree.io">Kantree</a> un outil de gestion de projet en ligne collaboratif, visuel et flexible.
 </p>
 <p>
 Nous avons un objectif clair et ambitieux: améliorer le quotidien des équipes dans les entreprises à travers le monde en leur donnant les meilleurs outils nécessaires à la collaboration et à la coordination de leur travail.
 </p>
 <p>
-Kantree est actuellement utilisé par des dizaines d’équipes dans le monde et notamment dans des grands groupes français.
+Kantree est actuellement utilisé par des centaines d’équipes dans le monde et notamment dans des grands groupes français.
 </p>
 <p>
-Digicoop a la particularité unique d’être une **startup du numérique sous statuts coopératif (SCOP)**. Nous avons voulu inscrire dans les statuts juridiques de notre entreprise les valeurs de coopération, de transparence, de partage, de justice que nous défendons.
+Digicoop a la particularité unique d’être une </a><strong>startup du numérique sous <a href="http://www.les-scop.coop/sites/fr/les-scop/qu-est-ce-qu-une-scop.html">statuts coopératif (SCOP)</a></strong>. Nous avons voulu inscrire dans les statuts juridiques de notre entreprise les valeurs de coopération, de transparence, de partage, de justice que nous défendons.
 </p>
 <p>
-Pour plus d’infos sur digicoop et kantree, <a href="http://digicoop.io/jobs">http://digicoop.io/jobs</a>
+Concrètement, comme dans toute les SCOP, cela veut dire que chaque salarié est amené à devenir associé, et que la pérennité de l’entreprise est un objectif fondamental.
+</p>
+<p>
+    Nos locaux sont situés aux 5 rue Richard Lenoir dans le 11ème arrondissement de Paris.
 </p>
 
 {{ content }}
 
 {% unless page.closed %}
+<h2>Déroulement des entretiens</h2>
+
+<p>
+    Si votre profil est retenu, vous serez contacter par téléphone pour un premier entretien téléphonique.<br>
+    A la suite de celui-ci, un entretien en personne sera convenu dans nos locaux (Paris 11ème).<br>
+    Un deuxième entretien pourra éventuellement être planifier selon le poste.
+</p>
+
 <h2>Postuler</h2>
 
 <p>
