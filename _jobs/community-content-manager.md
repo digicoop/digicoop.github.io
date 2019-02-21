@@ -1,7 +1,7 @@
 ---
 title: Community & Content Manager (H/F)
 excerpt: Editer et publier du contenu au sujet de Kantree, développer et animer sa communauté
-closed: false
+closed: true
 posted: 15/01/2019
 contract_type: CDI
 salary: Salaire à définir en fonction de votre profil
