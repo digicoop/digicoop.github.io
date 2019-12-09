@@ -1,11 +1,10 @@
 - name: Kantree
-  picture: /assets/img/kantree.png
+  picture: https://kantree.io/static/promo/img/screenshot.png
   link: kantree.io
-  desc: Kantree est une gestionnaire de projet visuel et flexible qui permet à n'importe
-        quelle équipe de travailler ensemble en temps-réel et de gérer visuellement tout
-        type d'activité. Des idées les plus simples aux projets complexes, il s'adapte à
-        votre façon de travailler et vous aide à vous concentrer sur les choses qui
-        comptent le plus.
+  desc: Kantree est notre outil de gestion du travail visuel et flexible qui permet à n'importe
+        quelle équipe de gérer ensemble tout type de projet et processus. Des idées les plus simples
+        aux projets complexes, il s'adapte à votre façon de travailler et vous aide à vous concentrer
+        sur les choses qui comptent le plus.
 
 # - name: Kaiwa
 #   picture: /assets/img/kaiwa.png
@@ -15,7 +14,7 @@
 #         instantannées. Kaiwa propose une interface moderne qui combinée au serveur
 #         Prosody délivre une expérience au même niveau que les alternatives commerciales.
 
-- name: Polynote
-  picture: /assets/img/polynote.png
-  link: polynote.io
-  desc: Polynote est un éditeur de note collaboratif et temps-réel.
+# - name: Polynote
+#   picture: /assets/img/polynote.png
+#   link: polynote.io
+#   desc: Polynote est un éditeur de note collaboratif et temps-réel.
