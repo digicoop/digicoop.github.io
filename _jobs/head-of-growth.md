@@ -20,7 +20,7 @@ De part la petite taille de l'équipe, ceci est un poste qui nécessite d'être 
 - Travailler avec les différentes parties prenantes (produit, marketing, sales) pour définir et exécuter la stratégie de croissance à moyen et long terme
 - Définir et implémenter des moyens créatifs pour faire croître notre base utilisateur et par la même, toute la société
 - Définir des cas d'usages et personas afin de guider les décisions produits et marketing
-- Travailler conjoitenement avec notre responsable contenu pour développer notre startégie de content marketing
+- Travailler conjointement avec notre responsable contenus pour développer notre stratégie de content marketing
 - Expérimenter de nouvelles méthodes de croissance
 - Identifier de nouveaux canaux d'acquisition et pratiquer des tests afin d'estimer leur potentiel puis développer les plus prometteurs
 - Communiquer et présenter des rapports sur votre travail à toute l'équipe
