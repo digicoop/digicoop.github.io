@@ -15,7 +15,7 @@ Nous avons pour objectif de passer à une technologie plus récente (React, Vue,
 
 Néanmoins, le développement produit devra continuer en parallèle et une excellente maitrise d'AngularJS est donc requise.
 
-En tant que développeur frontend, vous participerait au design du produit, tant en terme UI, qu'UX. Nous recherchons quelqu'un avec un savoir faire en la matière qui pourra apporter plus de fraicheur à l'interface de Kantree.
+En tant que développeur frontend, vous participerez au design du produit, tant en terme UI, qu'UX. Nous recherchons quelqu'un avec un savoir-faire en la matière qui pourra apporter plus de fraîcheur à l'interface de Kantree.
 
 Nous suivons une méthodologie kanban avec un forte autonomie et responsabilité de chaque développeur.
 
@@ -34,11 +34,11 @@ Nous utilisons Gitlab pour la gestion du code, avec intégration continue et dé
 
 - Au moins 4 ans d'expérience en Javascript/CSS/HTML
 - Excellente maitrise de Javascript dont les versions les plus récentes (ES6+)
-- Excellente maitrise de CSS et notamments des ajouts récents (animations, flexbox, grid, etc...)
-- Excellente maitrise des concepts et outils de développements frontend
-- Expérience avec AngularJS, idéalement très bonne maitrise
+- Excellente maitrise de CSS et notamment des ajouts récents (animations, flexbox, grid, etc...)
+- Excellente maitrise des concepts et outils de développement frontend
+- Expérience avec AngularJS, idéalement très bonne maîtrise
 - Expérience avec React, Vue, ou autre framework JS basé sur des composants / virtual DOM
 - Un état d'esprit "produit", focalisé sur l'expérience utilisateur
 - Autonome et responsable de son code
 - Bon niveau d'anglais
-- Bonus: a déjà participer à une migration de AngularJS vers un framework plus récent
+- Bonus: a déjà participé à une migration de AngularJS vers un framework plus récent
