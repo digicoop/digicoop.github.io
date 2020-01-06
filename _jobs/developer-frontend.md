@@ -2,7 +2,7 @@
 title: Développeur Frontend (H/F)
 excerpt: Développeur JS (AngularJS) avec expérience en design UI/UX
 closed: false
-posted: 06/01/2010
+posted: 06/01/2020
 contract_type: CDI
 salary: Salaire à définir en fonction de votre profil
 region: Paris
