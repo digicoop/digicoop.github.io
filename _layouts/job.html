@@ -16,7 +16,7 @@ assets:
     <li><strong>Région</strong> : {{page.region}}
     {% if page.experience %}<li><strong>Expérience souhaitée</strong> : {{page.experience}}{% endif %}
     <li><strong>Durée hebdomadaire</strong> : Temps plein
-    <li><strong>Début du contrat</strong> : dès que vous êtes prêt !
+    <li><strong>Début du contrat</strong> : {% if page.start_date %}{{page.start_date}}{% else %}dès que vous êtes prêt !{% endif %}
     <li><strong>Télétravail</strong> : possible et encouragé
     <li><strong>Offre postée le</strong> : {{page.posted}}
 </ul>
