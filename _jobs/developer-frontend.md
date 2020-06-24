@@ -6,6 +6,7 @@ posted: 06/01/2020
 contract_type: CDI
 salary: Salaire à définir en fonction de votre profil
 region: Paris
+start_date: Octobre 2020
 ---
 ## Le poste
 
