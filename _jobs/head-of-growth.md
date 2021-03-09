@@ -1,7 +1,7 @@
 ---
 title: Head of Growth (H/F)
 excerpt: Responsable de la croissance
-closed: false
+closed: true
 posted: 06/01/2020
 contract_type: CDI
 salary: Salaire à définir en fonction de votre profil
