@@ -20,15 +20,11 @@
   avatar: /assets/img/flora.jpg
   role: Customer Success
   linkedin: flora-réchard-morel-243582100
-- name: Lorène
-  avatar: /assets/img/lorene.jpeg
-  role: Marketing
-  linkedin: lorène-perrin-0b40329a
 - name: Léonard
   avatar: /assets/img/leonard.jpg
   role: Développeur
   linkedin: leonard-treille
-- name: Quentin
-  avatar: /assets/img/quentin.jpg
+- name: Yanis
+  avatar: /assets/img/yanis.jpg
   role: Développeur
-  linkedin: qansard
+  linkedin: ofsen
