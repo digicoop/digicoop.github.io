@@ -24,7 +24,12 @@
   avatar: /assets/img/leonard.jpg
   role: Développeur
   linkedin: leonard-treille
+- name: Florian
+  avatar: https://cdn.kantree.io/static/promo/img/about/florian-profile.png
+  role: Growth
+  linkedin: floriantrog
 - name: Yanis
   avatar: https://cdn.kantree.io/static/promo/img/about/yanis-profile.png
   role: Développeur
   linkedin: ofsen
+
