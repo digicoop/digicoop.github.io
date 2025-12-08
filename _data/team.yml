@@ -25,6 +25,6 @@
   role: Développeur
   linkedin: leonard-treille
 - name: Yanis
-  avatar: /assets/img/yanis.jpg
+  avatar: https://cdn.kantree.io/static/promo/img/about/yanis-profile.png
   role: Développeur
   linkedin: ofsen
