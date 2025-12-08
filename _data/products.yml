@@ -7,7 +7,7 @@
         sur les choses qui comptent le plus.
 
 - name: SQLify
-  picture: https://sqlify.me/static/images/screenshot.png
+  picture: /assets/img/sqlify.png
   link: sqlify.me
   desc: "Accèdez à toutes vos applications et n'importe quelles API ou resources distantes comme si c'était une grande et unique base de données. Requêtez le tout avec SQL."
 
