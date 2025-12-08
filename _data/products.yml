@@ -6,6 +6,11 @@
         aux projets complexes, il s'adapte à votre façon de travailler et vous aide à vous concentrer
         sur les choses qui comptent le plus.
 
+- name: SQLify
+  picture: https://sqlify.me/static/images/screenshot.png
+  link: sqlify.me
+  desc: "Accèdez à toutes vos applications et n'importe quelles API ou resources distantes comme si c'était une grande et unique base de données. Requêtez le tout avec SQL."
+
 # - name: Kaiwa
 #   picture: /assets/img/kaiwa.png
 #   link: getkaiwa.com
